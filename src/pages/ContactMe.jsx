@@ -1,8 +1,16 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import HomeImg2 from '../components/HomeImg2'
+import Footer from '../components/Footer'
+
 
 function ContactMe() {
   return (
-    <div>ContactMe</div>
+    <>
+    <Navbar />
+    <HomeImg2 heading="Contact." text="lets have a chat"/>
+    <Footer />
+    </>
   )
 }
 
