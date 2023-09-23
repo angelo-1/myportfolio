@@ -11,7 +11,7 @@ function HomeImg() {
             <img className='home-img' src={HomImg} alt="img" />
         </div>
         <div className='content'>
-          <p>HI, I'M ANGELO RAJESH</p>
+          <p>HI, I'M <span className='highlighted-text'>ANGELO RAJESH</span></p>
           <h1>Mern Stack Developer</h1>
           <div>
             <Link to='/projects' className='btn'>Projects</Link>

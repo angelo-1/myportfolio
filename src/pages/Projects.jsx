@@ -10,6 +10,7 @@ function Projects() {
     <>
     <Navbar />
     <HomeImg2 heading="Projects." text="Some of my most recent works"/>
+    <PrjComp />
     <Footer />
     </>
   )
